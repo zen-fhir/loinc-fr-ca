@@ -86,8 +86,8 @@ jobs:
           :tg-channel-id '"'$TG_FTR_UPDATES_CHAT_ID'"' \
           :loinc-password '"'$LOINC_USER_PASSWORD'"' \
           :loinc-login '"'$LOINC_USER_LOGIN'"' \
-          :langs '[{:id "8" :lang "fr" :country "CA"}]'
-          :gs-object-url '"gs://ftr/loinc"' \
+          :langs '[{:id "8" :lang "fr" :country "CA"}]' \
+          :gs-object-url '"gs://ftr/loinc-frca"' \
           :gs-ftr-object-url '"gs://ftr"' \
           :working-dir-path '"'$LOINC_FR_CA_WORKING_DIR_PATH'"' \
           :ci-run-url '"https://github.com/'$GITHUB_REPOSITORY'/actions/runs/'$GITHUB_RUN_ID'"'
