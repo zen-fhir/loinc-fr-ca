@@ -89,7 +89,7 @@ jobs:
           :langs '[{:id "8" :lang "fr" :country "CA"}]' \
           :gs-object-url '"gs://ftr/loincfrca"' \
           :gs-ftr-object-url '"gs://ftr"' \
-          :module '"loincfrca"'
+          :module '"loincfrca"' \
           :working-dir-path '"'$LOINC_FR_CA_WORKING_DIR_PATH'"' \
           :ci-run-url '"https://github.com/'$GITHUB_REPOSITORY'/actions/runs/'$GITHUB_RUN_ID'"'
           
