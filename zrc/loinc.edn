@@ -7,7 +7,7 @@
   :fhir/code-systems
   #{{:fhir/url "http://loinc.org", :zen.fhir/content :bundled}},
   :uri "http://loinc.org/vs",
-  :version "2.76",
+  :version nil,
   :ftr
   {:module "loincfrca",
    :source-url "https://storage.googleapis.com",
